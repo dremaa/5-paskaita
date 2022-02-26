@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="https://www.hashemian.com/tools/form-post-tester.php?code=drema&b=View" method="post">
+        <div>
+            <label for="Search">Search</label>
+            <input type="search" name="search">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="Password" name="Password">
+        </div>
+        <div>
+            <label for="url">Url</label>
+            <input type="url" name="url">
+        </div>
+        <div>
+            <textarea name="something" cols="30" rows="10">Hey!</textarea>
+        </div>
+        <div>
+            <select name="food">
+                <option>eggs</option>
+                <option>pasta</option>
+                <option>strawberries</option>
+            </select>
+        </div>
+        <div>
+            <select name="food" multiple>
+                <optgroup label="Food">
+                    <option>eggs</option>
+                    <option>pasta</option>
+                    <option>strawberries</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="here">Here</label>
+            <input type="checkbox" name="here">
+        </div>
+        <div>
+            <label for="radio">radio</label>
+            <input type="radio" name="radio">
+        </div>
+        <div>
+            <input type="range" name="range" min="5" max="50" step="2">
+        </div>
+        <div>
+            <input type="datetime-local" name="daetime">
+        </div>
+
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>

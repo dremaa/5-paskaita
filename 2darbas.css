@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #d1e8f1;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border-top: 2px solid rgb(18, 93, 255);
+}
+.first{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(243, 224, 201); 
+}

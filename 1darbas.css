@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    background-color: rgb(236, 223, 243);
+    width: 500px;
+    height: 550px;
+}
+h2{
+    margin: 25px;
+}  
+.fieldContainer {  
+    width: 250px;
+    margin: 0 auto;
+    color: gray;
+    margin-bottom: 15px;
+  }
+.btn{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+a{
+    font-size: 15px;
+    color: blue;
+}
+/* .labeldiv{
+    display: inline-block;
+    text-align: right;
+    min-width: 100px;
+}
+   */
+
+
+
+   /* cj del dive esanciu label nesigauna,
+   bet destytojas rode, tai reiktu
+   pasibandyti dar karteli */
